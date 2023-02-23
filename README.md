@@ -1,19 +1,17 @@
 # Reto de Python - ISO
 
-## Generación de datos
-Primero se ha creado un código fuente albergado en el archivo ***save-data.py***, el cual genera un archivo tipo *json* con los datos iniciales detallados en el mismo documento del reto técnico. Por lo que genera un archivo con el nombre de -> **data.json**.
-
 ## Obtención y manejo de datos
-Se ha definido una serie de funciones las cuales son especificas también por el mismo documento, las cuales son:
+Para las operaciones con el diccionario, se ha definido una serie de funciones las cuales pueden ser ejecutadas mediante el menu que se ejecuta cuando se hace el llamado al *main.py*, las cuales son:
 
 * Agregar
 * Eliminar
 * Actualizar
 * Salir
 
-Se ha agregado la función de *"Mostrar"*, el cual se encarga de mostrar el formato deseado en pantalla/consola como se solicita el documento. Por otro lado, para demostrar que cada una de las funciones realiza una ejecución correcta se ha configurado archivos de salida distintos para cada función que modifica el archivo original de datos. 
+### Observaciones:
+- Se ha agregado la función de *Mostrar*, el cual se encarga de mostrar el formato (***tabla***) deseado en pantalla/consola como se solicita el documento. 
 
-No obstante, este puede cambiarse y probarse con el archivo original, es decir, podemos utilizar *data.json* reemplazando los nombres de salida estableciod en cada una de las funciones por el nombre de `json_files[0]` sin ningún problema. Sólo se hizo este cambio para demostrar y comprobar los cambios hechos en el conjunto de datos inicial. 
+- Por otro lado, en este pequeño sistema funciona con *escritura/lectura de archivos*. Por tal motivo, los detalles que contiene cada producto son almacenados en un archivo **'data.json'**, el cual también se crea automáticamente.
 
 ## Menu
-Finalmente se desarrolló un menu de opciones los cuales simulan una interfaz de usuario. Todo esto, es llamado en la función *main.py*
+Finalmente, se desarrolló un menu de opciones los cuales simulan una interfaz para el usuario y donde se pueden probar todas la funcionalidades que requiere el examen.
